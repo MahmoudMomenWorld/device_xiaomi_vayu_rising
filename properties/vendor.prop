@@ -268,7 +268,7 @@ persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
 #Vsync Offsets
-#debug.sf.latch_unsignaled=1
+debug.sf.latch_unsignaled=1
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
 debug.sf.late.app.duration=16600000
