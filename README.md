@@ -1,6 +1,6 @@
 Copyright (C) 2021 ArrowOS
 
-Device configuration for Poco X3 Pro
+Buildable Project Matrixx Device Tree for Poco X3 Pro
 =========================================
 
 The Poco X3 Pro (codenamed _"vayu"_) is a high-end smartphone from POCO.
