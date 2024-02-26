@@ -390,6 +390,8 @@ PRODUCT_PACKAGES += \
    TelephonyOverlayVayu \
    TetheringConfigOverlayVayu \
    WifiOverlayVayu
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
 
 # Perf
 PRODUCT_PACKAGES += \
