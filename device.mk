@@ -23,9 +23,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Camera
-#$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk) # Thanks to @dogpoopy
-
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 BOARD_SHIPPING_API_LEVEL := 30
