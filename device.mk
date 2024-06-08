@@ -24,7 +24,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk) # Thanks to @dogpoopy
+#$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk) # Thanks to @dogpoopy
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
