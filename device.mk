@@ -456,6 +456,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# Signing Rom with test keys
+include vendor/lineage-priv/keys/keys.mk
+
 # NeuralNetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
