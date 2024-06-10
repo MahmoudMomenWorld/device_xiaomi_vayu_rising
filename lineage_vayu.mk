@@ -14,13 +14,13 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Matrixx
-MATRIXX_BUILD_TYPE := Official
-MATRIXX_MAINTAINER := Mo'men Abdulrazek
+MATRIXX_BUILD_TYPE := Unofficial
+MATRIXX_MAINTAINER := momenabdulrazekali
 MATRIXX_CHIPSET := SM8150
 MATRIXX_BATTERY := 5160mah
 MATRIXX_DISPLAY := 1080x2400
 
-## Device identifier
+# Device identifier
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
