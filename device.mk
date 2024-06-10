@@ -454,7 +454,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/lineage/interfaces/power-libperfmgr \
 
 # Signing Rom with test keys
 include vendor/lineage-priv/keys/keys.mk
