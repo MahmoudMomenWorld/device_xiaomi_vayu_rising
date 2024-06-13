@@ -10,8 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common AOSP configurations
-$(call inherit-product, vendor/rising/config/rising.mk)
+# Inherit some common RisingOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 
 # Device identifier
