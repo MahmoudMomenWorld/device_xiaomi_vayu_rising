@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_vayu
+PRODUCT_NAME := rising_vayu
 PRODUCT_SYSTEM_NAME := vayu_global
 PRODUCT_SYSTEM_DEVICE := vayu
 TARGET_SUPPORTS_QUICK_TAP := true
