@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rising_vayu.mk
+    $(LOCAL_DIR)/lineage_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    rising_vayu-eng \
-    rising_vayu-userdebug \
-    rising_vayu-user
+    lineage_vayu-eng \
+    lineage_vayu-userdebug \
+    lineage_vayu-user
